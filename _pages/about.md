@@ -1,24 +1,17 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: 
-
+subtitle: Efficient ML systems · Scalable inference · Interpretable learning
 profile:
-  align: right
   image: prof_pic.jpg
-  address: >
-    <p>D305 LSRC</p>
-    <p>308 Research Drive</p>
-    <p>Durham, NC 27708-0129</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: true
+selected_papers: true
+social: false
 ---
 
-I’m a final-year Ph.D. student in the Department of Computer Science at Duke University, under supervision of Prof. [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/) and Prof. [Benjamin C. Lee](https://www.seas.upenn.edu/~leebcc/). I’m interested in improving transparency and efficiency of current machine learning models. Prior to joining Duke, I received my Bachelor's degree in Mathematics and Computer Science from the University of Michigan, where I worked with Prof. [Jenna Wiens](http://www-personal.umich.edu/~wiensj/).
+I’m an **ML Engineer at Google**. I graduated with a **PhD in Computer Science from Duke University**, where I was advised by [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/) and [Benjamin C. Lee](https://www.engineering.upenn.edu/~leebcc/).
 
-You can reach me at hyhuang at cs dot duke dot edu.
+During my PhD, I studied **efficient machine learning systems and scalable inference**, including memory use and inference efficiency for mixture-of-experts models. My doctoral research also covered interpretable machine learning and dimensionality reduction for data visualization.
 
-Last Updated: November 2024.
+Before Duke, I earned a bachelor's degree in Mathematics and Computer Science at the University of Michigan, where I worked with [Jenna Wiens](https://wiens-group.engin.umich.edu/).

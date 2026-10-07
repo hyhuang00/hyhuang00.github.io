@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two of my papers are accepted at NeurIPS 2024. See you in Vancouver!
+Two of my papers were accepted at NeurIPS 2024: efficient MoE inference and parametric dimensionality reduction.

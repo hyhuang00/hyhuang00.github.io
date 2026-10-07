@@ -1,47 +1,14 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Code
+description: Research software and implementations.
 nav: true
 nav_order: 4
 ---
 
-## GitHub users
+- [PaCMAP](https://github.com/YingfanWang/PaCMAP) — dimensionality reduction preserving local and global structure.
+- [ParamRepulsor](https://github.com/hyhuang00/ParamRepulsor) — parametric dimensionality reduction with hard negative mining.
+- [MoE inference](https://github.com/hyhuang00/moe_inference) — efficient mixture-of-experts inference.
 
-{% if site.data.repositories.github_users %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-## GitHub Repositories
-
-{% if site.data.repositories.github_repos %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+Find more on [my GitHub profile](https://github.com/hyhuang00).
